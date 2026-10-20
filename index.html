@@ -20,7 +20,16 @@
     let anoNascimento = prompt("Em que ano você nasceu?");
 
     let alunoAtivo = confirm("É aluno ativo da instituição?")
+    let anoConvertido = Number(anoNascimento);
+    let idadeEstimada = 2026 - anoConvertido; 
+    let sobrenomeMaiusculo = sobrenome.toUpperCase();
+    let quantidadeLetras = nome.length;
 
+
+console.log("CRACHÁ VIRTUAL: " + sobrenomeMaiusculo + ", " + nome);
+console.log("Idade estimada: " + idadeEstimada + " anos.");
+console.log("O seu primeiro nome tem " + quantidadeLetras + " letras.");
+console.log("Estatuto de aluno ativo: " + alunoAtivo);
   </script>
 
 </body>
